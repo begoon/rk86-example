@@ -38,7 +38,7 @@
   - файл `rk86_example.asm` редактируется локально
   - `make` или `make build` компилиет файл `rk86_example.rom` и создаст 
     выходной текстовый файл `rk86_example.bin`
-  - `rk86_example.bin` тебе надо закоммитить и сделать `push`, чтобы файл
+  - `rk86_example.bin` теперь надо закоммитить и сделать `push`, чтобы файл
     ушел на github и стал [доступен для скачивания](https://raw.githubusercontent.com/begoon/rk86-example/main/rk86_example.bin) в формате raw
   - `make run` запускает файл в эмуляторе
 
