@@ -14,7 +14,7 @@
 
 Создаете репозиторий [`rk86-example`](https://github.com/begoon/rk86-example) на GitHub.
 
-Кладете туда исходник и создате [`Makefile`](https://github.com/begoon/rk86-example/blob/main/Makefile):
+Кладете туда исходник и создайте [`Makefile`](https://github.com/begoon/rk86-example/blob/main/Makefile):
 
     TARGET=rk86_example
     RUN=https://rk86.ru/index.html?file=
