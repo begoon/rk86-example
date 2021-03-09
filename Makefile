@@ -1,4 +1,5 @@
 TARGET=rk86_example
+RUN=https://rk86.ru/index.html?file=
 
 all: build hex
 
@@ -9,7 +10,7 @@ hex:
 	python rk86_hex.py -i $(TARGET).rom -o $(TARGET).bin
 
 run:
-	open https://rk86.ru/index.html?file=https://gist.githubusercontent.com/begoon/7c98577dfc27c41483ef5f5e7857587d/raw/rk86_example.bin
+	open $(RUN)https://raw.githubusercontent.com/begoon/rk86-example/main/$(TARGET).bin
 
 clean:
 	-rm $(TARGET).rom
