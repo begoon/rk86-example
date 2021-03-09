@@ -14,7 +14,7 @@
 
 Создаете репозиторий [`rk86-example`](https://github.com/begoon/rk86-example) на GitHub.
 
-Кладете туда исходник и создайте [`Makefile`](https://github.com/begoon/rk86-example/blob/main/Makefile):
+Кладете туда исходник и создаете [`Makefile`](https://github.com/begoon/rk86-example/blob/main/Makefile):
 
     TARGET=rk86_example
     RUN=https://rk86.ru/index.html?file=
@@ -43,6 +43,7 @@
   - `make run` запускает файл в эмуляторе
 
 Для данного `Makefile` требуется ассемблер [zasm](https://k1.spdns.de/Develop/Projects/zasm/Documentation/) и программа [rk86_hex.py](https://github.com/begoon/rk86-example/blob/main/rk86_hex.py).
+
 # Как собрать [zasm](https://k1.spdns.de/Develop/Projects/zasm/Documentation/)
 
 Проверялось на Mac.
